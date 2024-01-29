@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  color: #f7f9f9;
+  font-family: TwitterChirp, -apple-system, "system-ui", "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  line-height: 24px;
+}
+
 body {
-	@apply bg-[#15202b] text-white;
+  @apply bg-[#15202b] text-white ml-[42px];
+}
+
+.menuBar {
+  font-size: 20px;
+  font-family: TwitterChirp, -apple-system, "system-ui", "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #f7f9f9;
 }
 
 /* 
